@@ -18,7 +18,7 @@
 </template>
 <script>
 import axios from 'axios'
-import banner01 from './../components/banner01';
+import banner01 from './../components/banner02';
 import newban1 from './../components/new_h01';
 import newlists from './../components/newlists';
 import { setTimeout } from 'timers';

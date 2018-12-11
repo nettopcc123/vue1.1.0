@@ -2,16 +2,24 @@
 <div id="container">
  <swiper :options="swiperOption" ref="mySwiper">
   <swiper-slide class="swiper-slide games">
+    <router-link :to="{ name: 'newsMore1', params: { articid: 26}}">
    <img :src="require('./../components/img/banner_h03.jpg')" alt="">
+   </router-link>
   </swiper-slide>
   <swiper-slide class="swiper-slide games">
+    <router-link :to="{ name: 'newsMore1', params: { articid: 252}}">
    <img :src="require('./../components/img/banner_h04.jpg')" alt="">
+   </router-link>
   </swiper-slide>
   <swiper-slide class="swiper-slide games">
+    <router-link :to="{ name: 'newsMore1', params: { articid: 433}}">
    <img :src="require('./../components/img/banner_h05.jpg')" alt="">
+   </router-link>
   </swiper-slide>
   <swiper-slide class="swiper-slide games">
+    <router-link :to="{ name: 'newsMore1', params: { articid: 438}}">
    <img :src="require('./../components/img/banner_h06.jpg')" alt="">
+   </router-link>
   </swiper-slide>
   <div class="swiper-pagination" slot="pagination"></div>
   <!-- <div class="swiper-button-prev" slot="button-prev"></div>

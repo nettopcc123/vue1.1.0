@@ -2,10 +2,14 @@
 <div id="container">
  <swiper :options="swiperOption" ref="mySwiper">
   <swiper-slide class="swiper-slide games">
+   <router-link :to="{ name: 'newsMore1', params: { articid: 442 }}">
    <img :src="require('./../components/img/banner_h01.jpg')" alt="">
+   </router-link>
   </swiper-slide>
   <swiper-slide class="swiper-slide games">
+   <router-link :to="{ name: 'newsMore1', params: { articid: 425}}">
    <img :src="require('./../components/img/banner_h02.jpg')" alt="">
+   </router-link>
   </swiper-slide>
   <div class="swiper-pagination" slot="pagination"></div>
   <!-- <div class="swiper-button-prev" slot="button-prev"></div>
